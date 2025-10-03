@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.img-sidebar {
+    text-align: left;
+    top: 50%;
+    transform: translateY(+25%)
+}
+
+.sidebar{
+    Width: 15%;
+    height: 100%;
+    position:fixed;
+    background-color: purple;
+}
+
+.sidebar-pos{
+    position: absolute
+}
+
+.img-sidebar img{
+    width:25%;
+    border-radius: 50%;
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.menu a{
+    color: black;
+    font-size: 19px;
+    display: block;
+    text-decoration: none;
+}
